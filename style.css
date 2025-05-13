@@ -375,4 +375,84 @@ display: flex;
     border: none;
     padding: 12px 20px;
     cursor: pointer;
+  } 
+/* RESPONSIVE RULES BELOW */
+@media (max-width: 768px) {
+
+  /* Stack main sections vertically */
+  .nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
   }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .doc {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-box {
+    width: 100vw;
+    padding: 20px;
+    height: 50vh;
+    color: rgb(0, 119, 255);
+    background: #fff;
+  }
+
+  .right-box {
+    width: 100vw;
+    padding: 20px;
+    height: 100vh;
+  }
+
+  .trust {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+
+  .trust-img,
+  .right-content {
+    width: 100%;
+  }
+
+  .trust-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #trustimg1,
+  #trustimg2 {
+    position: static;
+    width: 40%;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .Solution-Cards,
+  .doctor-cards {
+    align-items: center;
+    margin: 0;
+  }
+
+  .appointment-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .appointment-left,
+  .appointment-form {
+    width: 100%;
+  }
+
+  .appointment-form input {
+    width: 100%;
+  }
+}
