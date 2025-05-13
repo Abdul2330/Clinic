@@ -17,17 +17,18 @@
 
 <body>
   <div class="nav">
-    <a href="#" class="logo">Klinik</a>
+    <a href="#hero" class="logo">Klinik</a>
     <div class="nav-links">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Service</a>
-      <a href="#">Contact</a>
+      <a href="#hero">Home</a>
+      <a href="#About ">About</a>
+      <a href="#service ">Service</a>
+      <a href="#appointment">Contact</a>
     </div>
-    <div class="apt-button">Appointment &#11166</div>
+    <a href="#appointment">
+    <div class="apt-button">Appointment &#11166</div></a>
   </div>
 
-  <div class="doc">
+  <div class="doc" id="hero">
     <div class="left-box">
       <h2>Good Health Is The Root Of All Happiness</h2>
       <div class="stats">
@@ -49,7 +50,7 @@
       <img id="trustimg2" src="about-2.jpg">
 
     </div>
-    <div class="right-content">
+    <div class="right-content" id="About">
       <h3>About us</h3>
       <h2>Why You Should Trust Us? <br>Get Know About Us</h2>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, voluptatem illum. Cum doloribus
@@ -66,13 +67,13 @@
         <li>Only Qualified Doctors</li>
         <li>Medical Research Professionals</li>
       </ul>
-      <button class="btn">Read More</button>
+      <a href="#review"><button class="btn">Read More</button></a>
 
     </div>
   </div>
   <!--Solution Section-->
   
-  <div class="solutions">
+  <div class="solutions" id="service">
     <h5>Solutions</h5>
     <h2>Health Care Solutions</h2>
     <div class="Solution-Cards">
@@ -148,7 +149,7 @@
 
 
 <!--Appointment Section-->
-<div class="appointment-section">
+<div class="appointment-section"  id="appointment">
   <div class="appointment-left">
     <h3>Make An Appointment To Visit Our Doctor</h3>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et reprehender</p>
@@ -176,7 +177,7 @@
 </div>
 
 <!--review section-->
-  <div class="testimonial-section">
+  <div class="testimonial-section" id="review">
     <h3>What Say Our Patients!</h3>
     <div class="testimonial-box">
       <div class="testimonial-wrapper">
@@ -193,5 +194,4 @@
   </div>
 
 </body>
-
 </html>
